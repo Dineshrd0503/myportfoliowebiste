@@ -3,88 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dinesh Rajasekhar - Portfolio</title>
+    <title>Rajasekhar Dinesh - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Dinesh Rajasekhar</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="about">
-        <div class="about-container">
-            <div class="about-text">
-                <h1>About Me</h1>
-                <p>Hello! I'm <strong>Dinesh Rajasekhar</strong>, a passionate Java developer with expertise in Java, SQL, Spring Boot, and Web Technologies.</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/dinesh-rajasekhar-686193270/" target="_blank">LinkedIn</a>
-                    <a href="http://github.com/Dineshrd0503" target="_blank">GitHub</a>
-                </div>
-            </div>
-            <div class="about-image">
-                <img src="D:\my portfolio website\photo.jpg" alt="Dinesh Rajasekhar">
-            </div>
-        </div>
+    
+    <section id="home" class="section">
+        <img src="D:\my portfolio website\photo.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Rajasekhar Dinesh</h1>
+        <p>Nellore, Andhra Pradesh, India</p>
+        <p>Email: ananddinesh00399@gmail.com</p>
+        <p>GitHub: <a href="http://Github.com/Dineshrd0503" target="_blank">Dineshrd0503</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/dinesh-rajasekhar-686193270/" target="_blank">Dinesh Rajasekhar</a></p>
+        <a href="https://drive.google.com/file/d/12QrQWiIBIfuWlHRHSe-PrPuWyBYT8nFa/view?usp=sharing" download class="download-btn">Download Resume</a>
     </section>
-
-    <section id="skills">
-        <h1>Skills</h1>
+    
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p><strong>N.B.K.R Institute Of Science & Technology</strong> - B.Tech in CSE (9.1/10 CGPA)</p>
+        <p><strong>Narayana Junior College</strong> - Higher Secondary (94%)</p>
+        <p><strong>Little Angels School</strong> - Secondary (10/10 GPA)</p>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
         <ul>
-            <li>Java, C, Python</li>
-            <li>JDBC, SQL</li>
-            <li>Spring Boot</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Git, GitHub</li>
+            <li>Languages: Java, C, Python, SQL</li>
+            <li>Developer Tools: VS Code, IntelliJ, Git, GitHub</li>
+            <li>Frameworks: HTML/CSS, JavaScript, Spring Boot</li>
         </ul>
     </section>
-
-    <section id="projects">
-        <h1>Projects</h1>
-        <div class="project">
-            <h2>Online Banking System</h2>
-            <p>Developed a Java-based banking system with transaction handling and database security.</p>
-        </div>
-        <div class="project">
-            <h2>Hospital Management System</h2>
-            <p>Designed a system to manage patient records and doctor appointments.</p>
-        </div>
-        <div class="project">
-            <h2>Gym Website</h2>
-            <p>Built a responsive gym website using HTML, CSS, and JavaScript.</p>
-        </div>
-    </section>
-
-    <section id="experience">
-        <h1>Experience</h1>
-        <p><strong>Java Developer Intern - Nexus Logic Technologies</strong></p>
-        <p>Developed an Inventory Management System using Java, SQL, and JDBC.</p>
-    </section>
-
-    <section id="achievements">
-        <h1>Achievements</h1>
+    
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <p><strong>Java Developer Intern at Nexus Logic Technologies</strong></p>
         <ul>
-            <li>Organized JAVA SPRING 2K24 workshop at IEEE SB NBKRIST.</li>
-            <li>Team Leader of IEEE SB NBKRIST Java Programming Group.</li>
-            <li>Solved 200+ coding problems with a peak rating of 2888 on CodingNinjas.</li>
+            <li>Developed an Inventory Management System using Java, SQL, JDBC</li>
+            <li>Implemented CRUD operations with MySQL database</li>
+            <li>Used Prepared Statements to prevent SQL Injection</li>
         </ul>
     </section>
-
-    <section id="resume">
-        <h1>Resume</h1>
-        <p>Click below to view and download my resume.</p>
-        <a href="Dinesh_Rajasekhar.pdf" download class="download-btn">Download Resume</a>
+    
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Online Banking System</strong> (Java, SQL, JDBC, MySQL) - Secure transactions and ACID-compliant database</li>
+            <li><strong>Online Hospital Management System</strong> (Java, JDBC, SQL, MySQL) - Managed patient records and doctor schedules</li>
+            <li><strong>Responsive GYM Website</strong> (HTML, CSS, JS) - Interactive site for gym details and user queries</li>
+            <li><strong>Online Examination System</strong> (Core Java) - Secure online tests with student login history</li>
+        </ul>
     </section>
-
+    
+    <section id="achievements" class="section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Organized JAVASPRING 2K24 workshop at IEEE SB NBKRIST</li>
+            <li>Leader of Java Programming Group at IEEE SB NBKRIST</li>
+            <li>200+ coding problems solved with peak rating 2888 on CodingNinjas</li>
+            <li>Completed MOOC courses in C Programming and Ethical Hacking</li>
+            <li>Certified Intermediate Core Java developer (Udemy)</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 </html>
